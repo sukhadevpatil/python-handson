@@ -16,10 +16,11 @@ print(text[4])
 print(text[-1])
 print(text[-9])
 
-
 print(text[:5])
 print(text[:-3])
 print(text[-3:])
 print(text[4:])
 print(text[6:10])
 print(text[-9:-6])
+
+print(text[1:5])
