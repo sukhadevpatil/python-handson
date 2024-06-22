@@ -24,3 +24,4 @@ print(text[6:10])
 print(text[-9:-6])
 
 print(text[1:5])
+print(text[2:5])
