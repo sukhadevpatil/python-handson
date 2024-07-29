@@ -6,13 +6,13 @@ bid_continue = True
 def find_bid_winner(bids_data):
     max_bid = 0
     bid_winner = ''
-    for name in bids_data:
-        amount = bids_data[name]
-        if amount > max_bid:
-            max_bid = amount
-            bid_winner = name
+    for bidder_name in bids_data:
+        amt = bids_data[bidder_name]
+        if amt > max_bid:
+            max_bid = amt
+            bid_winner = bidder_name
 
-    print(f"Bid winner is {name} with amount ${max_bid}")
+    print(f"Bid winner is {bid_winner} with amount ${max_bid}")
 
 
 while bid_continue:
