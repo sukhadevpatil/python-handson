@@ -1,4 +1,3 @@
-
 bids = {}
 
 bid_continue = True
@@ -16,7 +15,6 @@ def find_bid_winner(bids_data):
     print(f"Bid winner is {name} with amount ${max_bid}")
 
 
-
 while bid_continue:
     name = input('What is your name ? ')
     amount = input('Enter your Bid Amount ? $')
@@ -28,8 +26,3 @@ while bid_continue:
     if more_bid == 'no':
         bid_continue = False
         find_bid_winner(bids)
-
-
-
-
-
