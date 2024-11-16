@@ -16,6 +16,9 @@ for item in x:
 print()
 print('=======================================')
 
-for item in list(range(len(x))):
-    print(item, end = " ")
+for n in list(range(len(x))):
+    print(x[n], end = " ")
+
+for n in range(20):
+    print(2**n, end = " ")
 
